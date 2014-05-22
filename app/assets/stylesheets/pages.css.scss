@@ -4,6 +4,13 @@
 
 @import "bootstrap";
 
+$red: #de1e19;
+$orange: #e45c19;
+$yellow: #efea35;
+$green: #53b232;
+$blue: #14bbdb;
+$purple: #7e1e6f;
+
 a {
   text-decoration: none;
   color: black;
@@ -13,30 +20,55 @@ a {
   line-height: 10px;
 }
 
-#about {
+#new {
   height: 100vh;
+  background: $red;
 }
 
-.sticky {  
-  position: fixed;  
-  width: 100%;  
-  left: 0;  
-  top: 0;  
-  z-index: 100;  
-  border-top: 0;  
-}  
+#about {
+  height: 100vh;
+  background: $orange;
+}
+
+#activity {
+  height: 100vh;
+  background: $yellow;
+}
+
+#board {
+  height: 100vh;
+  background: $blue;
+}
+
+#contact {
+  height: 100vh;
+  background: $green;
+}
+
+#menu {
+  height: 100vh;
+  background: $purple;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
 
 .top {
   height: 100vh;
-  min-width:100% !important;
+  min-width: 100% !important;
   background: white;
 }
-
 
 .left {
   background-repeat: no-repeat;
   height: 100vh;
-  background-image:url('bgpic.jpg');
+  background-image: url("bgpic.jpg");
 }
 
 .navbar {
@@ -74,7 +106,7 @@ img.logo {
 .round-button:hover {
   color: #ccc;
   text-decoration: none;
-  background: #333
+  background: #333333;
 }
 
 .round {
@@ -82,25 +114,25 @@ img.logo {
 }
 
 .red {
-  background-color: #de1e19;
+  background-color: $red;
 }
 
 .orange {
-  background-color: #e45c19;
+  background-color: $orange;
 }
 
 .yellow {
-  background-color: #efea35;
+  background-color: $yellow;
 }
 
 .green {
-  background-color: #53b232;
+  background-color: $green;
 }
 
 .blue {
-  background-color: #14bbdb;
+  background-color: $blue;
 }
 
 .purple {
-  background-color: #7e1e6f;
+  background-color: $purple;
 }
